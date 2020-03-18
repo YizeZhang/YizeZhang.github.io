@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Yize Zhang</title>
+  <icon>https://www.gravatar.com/avatar/624af4eaacf6b277c16b72c25f40d7aa</icon>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-03-18T13:03:41.659Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Yize Zhang</name>
+    <email>zhyize@163.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>An Introduction of Net_Diff</title>
+    <link href="http://yoursite.com/2020/03/18/An%20Introduction%20of%20Net_Diff/"/>
+    <id>http://yoursite.com/2020/03/18/An%20Introduction%20of%20Net_Diff/</id>
+    <published>2020-03-18T08:30:19.725Z</published>
+    <updated>2020-03-18T13:03:41.659Z</updated>
+    
+    <content type="html"><![CDATA[<p>Net_Diff is a software for GNSS Download, Positioning and Analysis.</p><p>It enables users to perform SPP/PPP/PPP-AR/DSPP/DPPP/RTK/PPP-RTK. All the signals of the current GPS/GLONASS/BeiDou/Galileo/QZSS/IRNSS are supported from single-frequency to triple-frequency. It can also be applied in SPP/PPP with BeiDou augmentation information (authorized user).</p><p>It supports data analysis, including coordinate plotting, coordinate comparison, satellite number, PDOP, satellite skyview, satellite visibility, cycleslip, troposphere, ionosphere, observation minus correction, positioning residuals plotting and KML file writing.</p><p>It provides GNS observation data and products download from many public FTP servers.</p><p>It also provides some useful tools such as time and coordinate system transferring, RTCM data receiving through Ntrip and TCP/IP, raw data converting, RINEX editing, ssr dumping, CLALIB and so on.</p><p>It provides a simple satellite orbit simulation.</p><p>Moreover, it supports multi-station PPP, clock estimation, DCB estimation based on GNSS net (authorized user).</p><hr><h1 id="How-to-install"><a href="#How-to-install" class="headerlink" title="How to install"></a>How to install</h1><ol><li><p>Install gzip</p><p>Click gzip-1.3.12-1-setup.exe and install gzip. </p><p>For example, after install it, gzip.exe is under C:\Program Files (x86)\GnuWin32\bin\</p></li><li><p>Install Net_Diff</p><p><em>a) If you have installed MATLAB R2017a or MATLAB Runtime version 9.2 (R2017a) on your computer.</em></p><p>Open /for_redistribution_files_only/ and click Net_Diff.exe</p><p><em>b) If not.</em></p><p>Open /for_redistribution/ and click Net_Diff_Installer_web.exe to install MATLAB Runtime and Net_Diff.exe</p><p>Please keep your computer connected to internet while installing.</p><p>It will take a few minutes to download MATLAB Runtime, please be patient.</p><p>If error occurs in downloading MATLAB Runtime 9.2, please download or update it by hand from:</p><p><a href="https://ww2.mathworks.cn/products/compiler/matlab-runtime.html" target="_blank" rel="noopener">https://ww2.mathworks.cn/products/compiler/matlab-runtime.html</a></p><p>As space is not allowed for the directory of EOP file, so please do not install Net_Diff under a directory that contains space, such as C:\Program Files. After finish installing, you can find the execute file from the installed program directory, for example C:\Net_Diff\application. </p><ol start="3"><li>Set environment variables</li></ol><p>This step is to automatically unzip the downloaded file and convert the crx file to rinex file if you want to download or update files in Net_Diff. </p><p>To do this, please add the path of gzip.exe (C:\Program Files (x86)\GnuWin32\bin) and crx2rnx.exe (C:\Net_Diff\application) to the PATH of system environment variables on your computer:</p><p>My computer–&gt;Properties–&gt;Advanced system setting–&gt;Environment variables–&gt;Edit the PATH environment variable–&gt;Add path</p><p>If you have problems in setting the environment variables, you can simply copy C:\Program Files (x86)\GnuWin32\bin\gzip.exe to C:\Net_Diff\application and run Net_Diff from C:\Net_Diff\ application. </p><p>When running Net_Diff from the Windows Start or the Desktop, you should also copy C:\Program Files (x86)\GnuWin32\bin\gzip.exe and C:\Net_Diff\application\crx2rnx.exe to the folder of C:\Windows\System32 or Desktop.</p></li></ol><hr><h1 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h1><ul><li><ol><li>If you run Net_Diff from the Windows Start or Desktop, please select the correct directory of the EOP file, Ant File and GLO%Leap file in the Input folder (C:\Net_Diff\application\Input) every time. Therefore, it is recommended to run Net_Diff from the execute file (You can also copy the folder of C:\Net_Diff\application to any other directories).</li></ol></li><li><ol start="2"><li>If the directory of Net_Diff.exe is not allowed to write files, try to run Net_Diff.exe from the administrator.</li></ol></li><li><ol start="3"><li>When updating Net_Diff, you only need to copy the updated files in for_redistribution_files_only/ to C:\ Net_Diff\application.</li></ol></li><li><ol start="4"><li>As for the use of Net_Diff, please refer to the help document *”A guide to use Net_Diff.pdf”*.</li></ol></li><li><ol start="5"><li>The document *”A Comparison of Net_Diff and RTKLIB.pdf”* compares the performance of Net_Diff and RTKLIB for a better understanding of Net_Diff.</li></ol></li><li><ol start="6"><li>Source code is under the src branch.</li></ol></li></ul><hr><br/><br/> ]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Net_Diff is a software for GNSS Download, Positioning and Analysis.&lt;/p&gt;
+&lt;p&gt;It enables users to perform SPP/PPP/PPP-AR/DSPP/DPPP/RTK/PPP-R
+      
+    
+    </summary>
+    
+    
+      <category term="GNSS" scheme="http://yoursite.com/categories/GNSS/"/>
+    
+    
+      <category term="Net_Diff" scheme="http://yoursite.com/tags/Net-Diff/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2020/03/18/hello-world/"/>
+    <id>http://yoursite.com/2020/03/18/hello-world/</id>
+    <published>2020-03-18T07:39:31.898Z</published>
+    <updated>2020-03-18T07:39:31.898Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
